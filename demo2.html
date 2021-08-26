@@ -3,9 +3,6 @@
         <script>
             function f1()
             {
-                /*prompt("enter number:");
-                alert("You clicked cancel, again enter");*/
-
                     var x=prompt("enter no:");
                     var r;
                     var sum=0;
@@ -17,8 +14,7 @@
                             sum=sum+r;
                             x=x/10;
                         }
-                        document.write("Sum of digit is : "+parseInt(sum));
-                        document.write("        Success");
+                        document.write("Sum of digit is : "+parseInt(sum)+ " Success");
                     }                       
                     else{
                         alert("Please enter number!! If you want to play");
@@ -26,7 +22,7 @@
             }
         </script>
     </head>
-    <body style="text-align: center; margin: 200px;">
+    <body style="text-align: center; margin: 200px; background-color: powderblue;">
         <input type="button" value="Let's play" onclick="f1()">
     </body>
 </html>
